@@ -61,5 +61,5 @@ def predcit_page():
                         else :
                                 C = f'{Clusters[pred[1]]} ({round(predict[0][pred[1]]*100, 2)} %)'
                                 st.write(f"The Relapse Time Estimation is:\n\n {C}")
-        return PATHO_ASSOC_SEP_RéMITTENTE,pathologie_associées_SEP_RR,S_fourmillements,S_trouble_de_léquilibre,S_baisse_de_lacuité_visuelle_de_loeil_droit,S_baisse_de_lacuité_visuelle_de_loeil_gauche,S_faiblesse_musculaire_de_lhémicorps_droit,S_faiblesse_musculaire_de_lémicorps_gauche,S_perte_de_la_sensibilité_fine,S_trouble_de_language,S_vision_double,S_paresthésis,CR_IRM_lésion_démyélinisantes_sus_tentoriel,CR_IRM_lésions_démyélinisantes_du_cordon_médullaire,EX_NEURO_synrome_pyramidale_4_mmbr_àl_hémicap_droit,EX_NEURO_syndrome_cérébelleux_stato_cinétique,EX_NEURO_bien_orienter_dans_le_temps_dans_l_espace_conscience_et_coopérative,EX_NEURO_atteinte_des_fonctions_cognitives,EX_NEURO_syndrome_cordonal_postérieur,EX_NEURO_SD_vestibulaire,EX_NEURO_hypoesthésie_de_l_hémicorps_gauche,EX_NEURO_syndrome_médullaire_des_2_membres_inferieurs,EX_NEURO_paire_cranienen,ASPECT_LCR_clair,Index__IgG,Glycorachie,Protéinorachie,EDSS1,EDSS2
+        
 
