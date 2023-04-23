@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 
 def load():
-        model = load_model(fr"C:\Users\Administrator\Desktop\Canada Project\BEST_MS_MODELS\ANN\best_moedl_fold1_86%.h5")
+        model = load_model(fr"C:\Users\Administrator\Desktop\Canada Project\MS Web App\model\best_moedl_fold1_86%.h5")
 
         return model
 
