@@ -9,7 +9,7 @@ def load():
 
 
 def predcit_page():
-        st.title("Multipl Scelorses Prediction")
+        st.title("Multiple Scelorsis Prediction")
 
         st.write(""" #### Patient Parameters """)
 
