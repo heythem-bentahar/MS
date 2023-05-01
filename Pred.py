@@ -30,7 +30,7 @@ def predcit_page():
                 CR_IRM_lésion_démyélinisantes_sus_tentoriel = float(st.checkbox("Compte Rendu IRM: Lésion Démyélinisantes sus Tentoriel"))
                 CR_IRM_lésions_démyélinisantes_du_cordon_médullaire = float(st.checkbox("Compte Rendu IRM: Lésions Démyélinisantes du Cordon Médullaire"))
         with col2:
-                EX_NEURO_synrome_pyramidale_4_membre_àl_hémicap_droit = float(st.checkbox("Examen Neurologique: Syndrome Pyramidale 4 membre à l'Hémicap Droit"))
+                EX_NEURO_synrome_pyramidale_4_mmbr_àl_hémicap_droit = float(st.checkbox("Examen Neurologique: Syndrome Pyramidale 4 membre à l'Hémicap Droit"))
                 EX_NEURO_syndrome_cérébelleux_stato_cinétique = float(st.checkbox("Examen Neurologique: Syndrome Cérébelleux Stato Cinétique"))
                 EX_NEURO_bien_orienter_dans_le_temps_dans_l_espace_conscience_et_coopérative = float(st.checkbox("Examen Neurologique: Bien Orienter dans le temps dans l'Espace Conscience et Coopérative"))
                 EX_NEURO_atteinte_des_fonctions_cognitives = float(st.checkbox("Examen Neurologique: Atteinte des Fonctions Cognitives"))
