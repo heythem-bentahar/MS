@@ -16,13 +16,13 @@ def predcit_page():
         col1, col2, col3 = st.columns([2,2, 1])
         with col1:
                 PATHO_ASSOC_SEP_RéMITTENTE = float(st.checkbox("Pathologie Associées: SEP Rémittente"))
-                pathologie_associées_SEP_RR = float(st.checkbox("Pathologie Associées: SEP Récurrente"))
+                pathologie_associées_SEP_RR = float(st.checkbox("Pathologie Associées: SEP Récurrente/Rémittente"))
                 S_fourmillements = float(st.checkbox("Symptômes: Fourmillements"))
                 S_trouble_de_léquilibre = float(st.checkbox("Symptômes: Trouble de l'équilibre"))
                 S_baisse_de_lacuité_visuelle_de_loeil_droit = float(st.checkbox("Symptômes: Baisse de l'Acuité Visuelle de l'Oeil Droit"))
                 S_baisse_de_lacuité_visuelle_de_loeil_gauche = float(st.checkbox("Symptômes: Baisse de l'Acuité Visuelle de l'Oeil Gauche"))
                 S_faiblesse_musculaire_de_lhémicorps_droit = float(st.checkbox("Symptômes: Faiblesse Musculaire de l'Hémicorps Droit"))
-                S_faiblesse_musculaire_de_lémicorps_gauche = float(st.checkbox("Symptômes: Faiblesse Musculaire de l'Emicorps Gauche"))
+                S_faiblesse_musculaire_de_lémicorps_gauche = float(st.checkbox("Symptômes: Faiblesse Musculaire de l'Hémicorps Gauche"))
                 S_perte_de_la_sensibilité_fine = float(st.checkbox("Symptômes: Perte de la Sensibilité Fine"))
                 S_trouble_de_language = float(st.checkbox("Symptômes: trouble de language"))
                 S_vision_double = float(st.checkbox("Symptômes: Vision Double"))
@@ -32,13 +32,13 @@ def predcit_page():
         with col2:
                 EX_NEURO_synrome_pyramidale_4_mmbr_àl_hémicap_droit = float(st.checkbox("Examen Neurologique: Syndrome Pyramidale 4 membre à l'Hémicap Droit"))
                 EX_NEURO_syndrome_cérébelleux_stato_cinétique = float(st.checkbox("Examen Neurologique: Syndrome Cérébelleux Stato Cinétique"))
-                EX_NEURO_bien_orienter_dans_le_temps_dans_l_espace_conscience_et_coopérative = float(st.checkbox("Examen Neurologique: Bien Orienter dans le temps dans l'Espace Conscience et Coopérative"))
+                EX_NEURO_bien_orienter_dans_le_temps_dans_l_espace_conscience_et_coopérative = float(st.checkbox("Examen Neurologique: Bien Orienter dans le: Temps, Spatiale, Coopérative"))
                 EX_NEURO_atteinte_des_fonctions_cognitives = float(st.checkbox("Examen Neurologique: Atteinte des Fonctions Cognitives"))
                 EX_NEURO_syndrome_cordonal_postérieur = float(st.checkbox("Examen Neurologique: Syndrome Cordonal Postérieur"))
                 EX_NEURO_SD_vestibulaire = float(st.checkbox("Examen Neurologique: Syndrome Vestibulaire"))
                 EX_NEURO_hypoesthésie_de_l_hémicorps_gauche = float(st.checkbox("Examen Neurologique: Hypoesthésie de l'Hémicorps Gauche") )
                 EX_NEURO_syndrome_médullaire_des_2_membres_inferieurs = float(st.checkbox("Examen Neurologique: Syndrome Médullaire des 2 Membres Inferieurs"))
-                EX_NEURO_paire_cranienen =  float(st.checkbox("Examen Neurologique: Paire Cranienen"))
+                EX_NEURO_paire_cranienen =  float(st.checkbox("Examen Neurologique: Paire Craniens"))
                 ASPECT_LCR_clair = float(st.checkbox("ASPECT LCR: Clair"))
         with col3:
 
