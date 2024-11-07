@@ -1,3 +1,3 @@
-# Multiple sclerosis Project
+# Multiple Sclerosis Project
 
-MS Relapse Time Prediction model usin ANN
+MS Relapse Time Prediction model using ANN
